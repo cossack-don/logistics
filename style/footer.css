@@ -1,0 +1,185 @@
+.footer__navigation {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.our-newsletters__input {
+  border: none;
+  border-bottom: solid #151515 2px;
+}
+
+.footer-bar__social-links-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-navigation-title {
+  font-family: "Jost";
+  font-size: 16px;
+  color: rgb(21, 21, 21);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+
+.customer-service-links {
+  width: 50%;
+  margin-left: 26%;
+}
+
+.footer-navigation-links {
+  padding: 100px;
+  display: flex;
+  width: 50%;
+}
+
+.company-links {
+  width: 50%;
+  padding-left: 65px;
+}
+
+.customer-service-links__item--tel {
+  padding-top: 35px;
+  padding-bottom: 17px;
+}
+
+.customer-service-links__item--live-chat,
+.customer-service-links__item--about-us,
+.customer-service-links__item--terms-conditions {
+  padding-bottom: 17px;
+}
+
+.customer-service-links__item:first-child {
+  padding-top: 0;
+}
+
+.company-links__item--what-we-do {
+  padding-top: 35px;
+  padding-bottom: 17px;
+}
+
+.company-links__item--services,
+.company-links__item--faqs,
+.company-links__item--katest-posts {
+  padding-bottom: 17px;
+}
+
+.footer-navigation-email-form {
+  width: 50%;
+  padding: 97px;
+  padding-left: 15px;
+}
+
+.our-newsletters__title {
+  padding-bottom: 40px;
+  padding-top: 2px;
+}
+
+.our-newsletters__header-text {
+  font-size: 13px;
+  color: rgb(69, 69, 69);
+  line-height: 1.2;
+}
+
+.our-newsletters__input-wrapper {
+  padding-top: 35px;
+  padding-bottom: 25px;
+}
+
+.our-newsletters__input {
+  padding-bottom: 10px;
+  width: 68%;
+  margin-top: 12px;
+}
+
+.our-newsletters__input::placeholder {
+  font-size: 13px;
+  font-family: "Jost";
+  color: rgba(69, 69, 69, 0.502);
+  line-height: 1.2;
+}
+
+.our-newsletters__button {
+  font-family: "Jost";
+  cursor: pointer;
+  border: none;
+  background: none;
+  border-bottom: solid #151515 2px;
+  margin-left: -5px;
+  padding-right: 5px;
+  padding-bottom: 8px;
+  transition: 0.5s;
+}
+
+.our-newsletters__button:hover {
+  transition: 0.5s;
+  font-weight: bold;
+  width: 30.5%;
+  border: solid #151515 2px;
+  padding-left: 10px;
+  padding-top: 7px;
+  border-radius: 5px;
+}
+
+.footer__line-element {
+  width: 70%;
+  height: 2px;
+  background: #eeeeee;
+  margin: 0 auto;
+}
+
+
+.footer-navigation-link {
+  font-size: 13px;
+  color: rgb(69, 69, 69);
+  line-height: 1.2;
+}
+
+.footer-navigation-link:hover {
+  transition: 0.5s;
+  border-bottom: 2px solid #151515;
+}
+
+
+@media (max-width: 992px) {
+
+  .footer-navigation-links {
+    padding: 40px;
+  }
+
+  .footer-navigation-email-form {
+    padding: 40px;
+    width: auto;
+  }
+}
+
+@media (max-width: 720px) {
+
+  .footer__navigation {
+    justify-content: center;
+  }
+
+  .customer-service-links {
+    margin-left: 0;
+  }
+
+  .company-links {
+    padding-left: 0;
+  }
+
+  .footer-navigation-links {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .footer-navigation-email-form {
+    text-align: center;
+    padding-top: 0;
+  }
+}
